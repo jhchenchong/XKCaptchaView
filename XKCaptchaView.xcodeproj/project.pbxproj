@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B79065011E9B5D1D006246E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B79065001E9B5D1D006246E3 /* main.m */; };
+		B79065041E9B5D1D006246E3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B79065031E9B5D1D006246E3 /* AppDelegate.m */; };
+		B79065071E9B5D1D006246E3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B79065061E9B5D1D006246E3 /* ViewController.m */; };
+		B790650A1E9B5D1D006246E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B79065081E9B5D1D006246E3 /* Main.storyboard */; };
+		B790650C1E9B5D1D006246E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B790650B1E9B5D1D006246E3 /* Assets.xcassets */; };
+		B790650F1E9B5D1D006246E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B790650D1E9B5D1D006246E3 /* LaunchScreen.storyboard */; };
+		B79065181E9B5D37006246E3 /* XKCaptchaView.m in Sources */ = {isa = PBXBuildFile; fileRef = B79065171E9B5D37006246E3 /* XKCaptchaView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B79064FC1E9B5D1D006246E3 /* XKCaptchaView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XKCaptchaView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B79065001E9B5D1D006246E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B79065021E9B5D1D006246E3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B79065031E9B5D1D006246E3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B79065051E9B5D1D006246E3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B79065061E9B5D1D006246E3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B79065091E9B5D1D006246E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B790650B1E9B5D1D006246E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B790650E1E9B5D1D006246E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B79065101E9B5D1D006246E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B79065161E9B5D37006246E3 /* XKCaptchaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XKCaptchaView.h; sourceTree = "<group>"; };
+		B79065171E9B5D37006246E3 /* XKCaptchaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XKCaptchaView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B79064F91E9B5D1D006246E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B79064F31E9B5D1D006246E3 = {
+			isa = PBXGroup;
+			children = (
+				B79064FE1E9B5D1D006246E3 /* XKCaptchaView */,
+				B79064FD1E9B5D1D006246E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B79064FD1E9B5D1D006246E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B79064FC1E9B5D1D006246E3 /* XKCaptchaView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B79064FE1E9B5D1D006246E3 /* XKCaptchaView */ = {
+			isa = PBXGroup;
+			children = (
+				B79065021E9B5D1D006246E3 /* AppDelegate.h */,
+				B79065031E9B5D1D006246E3 /* AppDelegate.m */,
+				B79065051E9B5D1D006246E3 /* ViewController.h */,
+				B79065061E9B5D1D006246E3 /* ViewController.m */,
+				B79065161E9B5D37006246E3 /* XKCaptchaView.h */,
+				B79065171E9B5D37006246E3 /* XKCaptchaView.m */,
+				B79065081E9B5D1D006246E3 /* Main.storyboard */,
+				B790650B1E9B5D1D006246E3 /* Assets.xcassets */,
+				B790650D1E9B5D1D006246E3 /* LaunchScreen.storyboard */,
+				B79065101E9B5D1D006246E3 /* Info.plist */,
+				B79064FF1E9B5D1D006246E3 /* Supporting Files */,
+			);
+			path = XKCaptchaView;
+			sourceTree = "<group>";
+		};
+		B79064FF1E9B5D1D006246E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B79065001E9B5D1D006246E3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B79064FB1E9B5D1D006246E3 /* XKCaptchaView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B79065131E9B5D1D006246E3 /* Build configuration list for PBXNativeTarget "XKCaptchaView" */;
+			buildPhases = (
+				B79064F81E9B5D1D006246E3 /* Sources */,
+				B79064F91E9B5D1D006246E3 /* Frameworks */,
+				B79064FA1E9B5D1D006246E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XKCaptchaView;
+			productName = XKCaptchaView;
+			productReference = B79064FC1E9B5D1D006246E3 /* XKCaptchaView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B79064F41E9B5D1D006246E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "浪漫恋星空";
+				TargetAttributes = {
+					B79064FB1E9B5D1D006246E3 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = YFL38H2HE3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B79064F71E9B5D1D006246E3 /* Build configuration list for PBXProject "XKCaptchaView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B79064F31E9B5D1D006246E3;
+			productRefGroup = B79064FD1E9B5D1D006246E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B79064FB1E9B5D1D006246E3 /* XKCaptchaView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B79064FA1E9B5D1D006246E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B790650F1E9B5D1D006246E3 /* LaunchScreen.storyboard in Resources */,
+				B790650C1E9B5D1D006246E3 /* Assets.xcassets in Resources */,
+				B790650A1E9B5D1D006246E3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B79064F81E9B5D1D006246E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B79065181E9B5D37006246E3 /* XKCaptchaView.m in Sources */,
+				B79065071E9B5D1D006246E3 /* ViewController.m in Sources */,
+				B79065041E9B5D1D006246E3 /* AppDelegate.m in Sources */,
+				B79065011E9B5D1D006246E3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B79065081E9B5D1D006246E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B79065091E9B5D1D006246E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B790650D1E9B5D1D006246E3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B790650E1E9B5D1D006246E3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B79065111E9B5D1D006246E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B79065121E9B5D1D006246E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B79065141E9B5D1D006246E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YFL38H2HE3;
+				INFOPLIST_FILE = XKCaptchaView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jhcc.com.XKCaptchaView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B79065151E9B5D1D006246E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YFL38H2HE3;
+				INFOPLIST_FILE = XKCaptchaView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jhcc.com.XKCaptchaView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B79064F71E9B5D1D006246E3 /* Build configuration list for PBXProject "XKCaptchaView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B79065111E9B5D1D006246E3 /* Debug */,
+				B79065121E9B5D1D006246E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B79065131E9B5D1D006246E3 /* Build configuration list for PBXNativeTarget "XKCaptchaView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B79065141E9B5D1D006246E3 /* Debug */,
+				B79065151E9B5D1D006246E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B79064F41E9B5D1D006246E3 /* Project object */;
+}
